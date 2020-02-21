@@ -49,12 +49,15 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/* border: 2px solid red !important; */
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 3%;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -70,24 +73,16 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	align-content: center; */
 }
-
-body {
- margin: 5%;
- border: 1px solid red;
-
-}
-header {
-
-}	
 nav a {
 	text-decoration: none;
 	color: lightgrey;
 	/* border: 1px solid red; */
-	
-
 }
 nav {
-	
+display: flex;	
+justify-content: space-around;
+align-items: center;
+margin-bottom: 6%;
 }
 
 #button {
@@ -96,6 +91,9 @@ border: 2px solid black;
 }
 
 h2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	font-size: 70px;
 	/* border: 2px solid red; */
 	margin: 0px 50px;
@@ -103,12 +101,14 @@ h2{
 	text-align: center;
 }
 .subsection1 {
+	display: flex;
 	border-top: 2px solid black;
-	/* columns: 2; */
+		/* columns: 2; */
 	padding: 30px 0px;
 	margin-top: 50px;
 }
 .subsection2 {
+	display: flex;
 	border-bottom: 2px solid black;
 	/* columns: 3; */
 	padding: 30px 0px;
@@ -116,10 +116,14 @@ h2{
 .subsection1 div{
 	
 }
-.roundimg {
+.round-img {
 	/* border: 2px solid red; */
 	
 }
 footer {
 	padding-top: 30px;
+}
+.middle-img{
+	display:block;
+	margin: 0 auto;
 }
