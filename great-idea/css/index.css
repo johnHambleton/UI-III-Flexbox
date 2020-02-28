@@ -113,17 +113,10 @@ h2{
 	/* columns: 3; */
 	padding: 30px 0px;
 }
-.subsection1 div{
-	
-}
-.round-img {
-	/* border: 2px solid red; */
-	
-}
 footer {
 	padding-top: 30px;
 }
-.middle-img{
-	display:block;
-	margin: 0 auto;
+section .middle-img{
+	width: 100%;
+	height: auto;
 }
